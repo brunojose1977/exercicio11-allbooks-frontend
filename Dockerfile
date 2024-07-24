@@ -21,12 +21,12 @@ COPY 2-descompactar-configurar-rodar-conteiner.sh .
 # Agora rodar o o script de descompactação
 RUN ./2-descompactar-configurar-rodar-conteiner.sh
 
-CMD ["nginx", "-g", "daemon off;"]
+#CMD ["nginx", "-g", "daemon off;"]
 EXPOSE 5000
 
-RUN cd /usr/share/nginx/html/site-reactjs
-CMD ["npm", "run", "start"]
-EXPOSE 8000
+#RUN cd /usr/share/nginx/html/site-reactjs
+#CMD ["npm", "run", "start"]
+#EXPOSE 8000
 
 
 ENTRYPOINT service nginx start && cd /usr/share/nginx/html/site-reactjs && npm run start && sleep 10d 
