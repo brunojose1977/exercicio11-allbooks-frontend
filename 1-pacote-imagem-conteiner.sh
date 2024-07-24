@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
 
-path_aplicacao_raiz=/home/brunojose/devops/curso4-docker/exercicio11-allbooks-frontend
-path_aplicacao_front_host=$path_aplicacao_raiz/site-reactjs
+path_aplicacao_raiz=/home/brunojose/devops/curso4-docker/exercicio11-allbooks-frontend/
+path_aplicacao_front_host=/home/brunojose/devops/curso4-docker/exercicio11-allbooks-frontend/site-reactjs
 path_pasta_front_reactjs=./site-reactjs
 nome_arquivo_compactado_front=aplicacao-front.tar.gz
 
