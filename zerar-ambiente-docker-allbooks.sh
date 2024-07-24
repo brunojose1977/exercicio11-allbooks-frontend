@@ -1,7 +1,7 @@
 #! /bin/bash
 clear
 
-echo "Excluindo o conteiner [monolito-allbooks] da aplicação Allbooks... PARA CANCELAR CTRL + C"
+echo "Excluindo o conteiner [allbooks-frontend] da aplicação Allbooks... PARA CANCELAR CTRL + C"
 echo " "
 sleep 5
 sudo docker rm allbooks-frontend --force

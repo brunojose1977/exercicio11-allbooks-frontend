@@ -35,7 +35,7 @@ echo " "
 
 echo " "
 echo " "
-echo "Agora será executado o comando de geração da imagem mononito back+front e também da criação e execução do conteiner monolito back + front : sudo docker compose up"
+echo "Agora será executado o comando de geração da imagem front e também da criação e execução do conteiner front : sudo docker compose up"
 echo " "
 echo " Ao final dessa execução para testar no browser do host:"
 echo " "
